@@ -2,6 +2,19 @@ package com.logica;
 
 public class Main {
 
+//    public static void desplazarPosicion() {
+//        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+//        int ultimo = arr[arr.length - 1];
+//        for (int i = arr.length - 2; i >= 0; i--) {
+//            int aux = arr[i];
+//            arr[i+1] = aux;
+//        }
+//        arr[0] = ultimo;
+//        for (int i = 0; i < arr.length; i++) {
+//            System.out.print(arr[i] + "; ");
+//        }
+//    }
+
 //    public static void insertarDesplazar() {
 //        int[] arr = {4, 12, 45, 3, 6, 7, 34, 10, 0, 0};
 //        System.out.print("Ingrese numero a insertar: ");
@@ -71,6 +84,8 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
+
+//        desplazarPosicion();
 
 //        insertarDesplazar();
 
