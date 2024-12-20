@@ -2,9 +2,44 @@ package com.logica;
 
 public class Main {
 
-    public static void crecienteDecreciente() {
+//    public static void insertarDesplazar() {
+//        int[] arr = {4, 12, 45, 3, 6, 7, 34, 10, 0, 0};
+//        System.out.print("Ingrese numero a insertar: ");
+//        int insertar = 65;
+//        int posicion = 5;
+//        for (int i = arr.length - 2; i >= posicion; i--) {
+//            int aux = arr[i];
+//            if(i == posicion) {
+//                arr[i] = insertar;
+//            }
+//            arr[i+1] = aux;
+//        }
+//        for (int i = 0; i < arr.length; i++) {
+//            System.out.print(arr[i] + "; ");
+//        }
+//    }
 
-    }
+//    public static void crecienteDecreciente() {
+//        int[] arr = {4, 5, 7, 3, 7, 2, 7, 4, 7, 8, 9};
+//        boolean creciente = false, decreciente = false;
+//        for (int i = 0; i < arr.length - 1; i++) {
+//            if(arr[i] < arr[i+1]) {
+//                creciente = true;
+//            }
+//            if(arr[i] > arr[i+1]) {
+//                decreciente = true;
+//            }
+//        }
+//        if(creciente == true && decreciente == false) {
+//            System.out.println("El array es creciente");
+//        } else if(creciente == false && decreciente == true) {
+//            System.out.println("El array es decreciente");
+//        } else if(creciente == true && decreciente == true) {
+//            System.out.println("El array esta desordenado");
+//        } else if(creciente == false && decreciente == false) {
+//            System.out.println("Los elementos del array son todos iguales");
+//        }
+//    }
 
 //    public static void mezclarArray() {
 //        int[] a = {1, 2, 3, 7, 8, 9, 13, 14, 15, 19, 20, 21};
@@ -36,6 +71,10 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
+
+//        insertarDesplazar();
+
+//        crecienteDecreciente();
 
 //        mezclarArray();
 
