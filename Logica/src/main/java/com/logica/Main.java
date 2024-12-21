@@ -1,6 +1,51 @@
 package com.logica;
 
+import java.util.Scanner;
+
 public class Main {
+
+    static Scanner sc = new Scanner(System.in);
+
+//    public static void eliminarNumero() {
+//        int[] arr = {13, 23, 45, 75, 35, 57, 24, 11, 90, 62};
+//        System.out.print("Ingrese posicion del elemento a eliminar: ");
+//        int eliminar = Integer.parseInt(sc.nextLine());
+//        for (int i = eliminar; i < arr.length - 1; i++) {
+//            arr[i] = arr[i+1];
+//        }
+//        for (int i = 0; i < arr.length - 1; i++) {
+//            System.out.print(arr[i] + "; ");
+//        }
+//    }
+
+//    public static void numerosOrdenados() {
+//        int[] arr = new int[10];
+//        System.out.println("Ingrese 5 numeros de forma creciente:");
+//        int num = 0;
+//        for (int i = 0; i < 5; i++) {
+//            System.out.print((i+1) + ". ");
+//            arr[i] = Integer.parseInt(sc.nextLine());
+//            while(num >= arr[i]) {
+//                System.out.println("Numero debe ser mayor a " + num);
+//                System.out.print((i+1) + ". ");
+//                arr[i] = Integer.parseInt(sc.nextLine());
+//            }
+//            num = arr[i];
+//        }
+//        System.out.print("Ahora ingrese numero a insertar en el arreglo: ");
+//        int insertar = Integer.parseInt(sc.nextLine());
+//        int j = 0;
+//        while(arr[j] < insertar && j < 5) {
+//            j++;
+//        }
+//        for (int i = 5; i >= j; i--) {
+//            arr[i+1] = arr[i];
+//        }
+//        arr[j] = insertar;
+//        for (int i = 0; i < 6; i++) {
+//            System.out.print(arr[i] + "; ");
+//        }
+//    }
 
 //    public static void desplacePosiciones() {
 //        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
@@ -100,6 +145,10 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
+
+//        eliminarNumero();
+
+//        numerosOrdenados();
 
 //        desplacePosiciones();
 
