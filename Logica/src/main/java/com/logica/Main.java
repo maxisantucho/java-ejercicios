@@ -6,6 +6,46 @@ public class Main {
 
     static Scanner sc = new Scanner(System.in);
 
+    public static void fusionarTablas() {
+
+    }
+
+//    public static void paresImpares() {
+//        int[] arr = {12, 34, 78, 56, 45, 33, 54, 59, 81, 32};
+//        int pares = 0;
+//        int impares = 0;
+//        for (int i = 0; i < arr.length; i++) {
+//            if (arr[i] % 2 == 0) {
+//                pares++;
+//            } else {
+//                impares++;
+//            }
+//        }
+//        int[] arrP = new int[pares];
+//        int[] arrI = new int[impares];
+//        int j = 0;
+//        for (int i = 0; i < arr.length; i++) {
+//            if (arr[i] % 2 == 0) {
+//                arrP[j] = arr[i];
+//                j++;
+//            }
+//        }
+//        j = 0;
+//        for (int i = 0; i < arr.length; i++) {
+//            if (arr[i] % 2 != 0) {
+//                arrI[j] = arr[i];
+//                j++;
+//            }
+//        }
+//        for (int i = 0; i < arrP.length; i++) {
+//            System.out.print(arrP[i] + "; ");
+//        }
+//        System.out.println();
+//        for (int i = 0; i < arrI.length; i++) {
+//            System.out.print(arrI[i] + "; ");
+//        }
+//    }
+
 //    public static void eliminarNumero() {
 //        int[] arr = {13, 23, 45, 75, 35, 57, 24, 11, 90, 62};
 //        System.out.print("Ingrese posicion del elemento a eliminar: ");
@@ -145,6 +185,10 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
+
+        fusionarTablas();
+
+//         paresImpares();
 
 //        eliminarNumero();
 
