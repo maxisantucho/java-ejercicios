@@ -6,9 +6,74 @@ public class Main {
 
     static Scanner sc = new Scanner(System.in);
 
-    public static void fusionarTablas() {
 
-    }
+
+//    public static void buscarElemento() {
+//        int[] arr = new int[10];
+//        System.out.println("Ingrese 10 numeros de forma creciente");
+//        int num = 0;
+//        for (int i = 0; i < arr.length; i++) {
+//            System.out.print((i+1) + ". ");
+//            arr[i] = Integer.parseInt(sc.nextLine());
+//            while(num >= arr[i]) {
+//                System.out.println("Numero debe ser mayor que el anterior");
+//                System.out.print((i+1) + ". ");
+//                arr[i] = Integer.parseInt(sc.nextLine());
+//            }
+//            num = arr[i];
+//        }
+//        System.out.print("Ingrese un numero de la tabla: ");
+//        int ingresado = Integer.parseInt(sc.nextLine());
+//        int j = 0;
+//        boolean bandera = true;
+//        while(bandera && j < arr.length) {
+//            if(arr[j] == ingresado) {
+//                bandera = false;
+//            }
+//            j++;
+//        }
+//        if(bandera) {
+//            System.out.println("No se encontro el numero en el array.");
+//        } else {
+//            System.out.println("El numero ingresado esta en la posicion " + (j-1));
+//        }
+//    }
+
+//    public static void fusionarTablas() {
+//        int[] arrA = {12, 32, 33, 39, 45, 54, 59, 65, 78, 81};
+//        int[] arrB = {2, 13, 29, 31, 55, 67, 74, 76, 90, 98};
+//        int[] arrC = new int[20];
+//        int a = 0, b = 0, c = 0;
+//
+//        while(a < 10 && b < 10){
+//            if (arrA[a] < arrB[b]){
+//                arrC[c]=arrA[a];
+//                a++;
+//                c++;
+//            }
+//            else{
+//                arrC[c]=arrB[b];
+//                b++;
+//                c++;
+//            }
+//        }
+//        if(a == 10) {
+//            while(b < arrB.length) {
+//                arrC[c] = arrB[b];
+//                b++;
+//                c++;
+//            }
+//        } else{
+//            while(a < arrA.length) {
+//                arrC[c] = arrA[a];
+//                a++;
+//                c++;
+//            }
+//        }
+//        for (int i = 0; i < arrC.length; i++) {
+//            System.out.print(arrC[i] + "; ");
+//        }
+//    }
 
 //    public static void paresImpares() {
 //        int[] arr = {12, 34, 78, 56, 45, 33, 54, 59, 81, 32};
@@ -186,7 +251,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        fusionarTablas();
+//        buscarElemento();
+
+//        fusionarTablas();
 
 //         paresImpares();
 
