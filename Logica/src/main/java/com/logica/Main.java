@@ -8,6 +8,29 @@ public class Main {
 
 
 
+//    public static void matrizSimetrica() {
+//        int[][] matriz = {{0, 1, -2},
+//                          {1, 3, 0},
+//                          {-2, 0, 5}};
+//        if(matriz.length != matriz[0].length) {
+//            System.out.println("No es una matriz cuadrada.");
+//        } else {
+//            boolean bandera = true;
+//            for (int i = 0; i < matriz.length && bandera; i++) {
+//                for (int j = 0; j < matriz[i].length && bandera; j++) {
+//                    if(matriz[i][j] != matriz[j][i]) {
+//                        bandera = false;
+//                    }
+//                }
+//            }
+//            if(bandera) {
+//                System.out.println("Se obtiene la misma matriz al cambiar sus filas por columnas.");
+//            } else {
+//                System.out.println("La matriz no es asumetrica.");
+//            }
+//        }
+//    }
+
 //    public static void busquedaSecuencial() {
 //        int[] arr = {4, 1, 5, 2, 3};
 //        int dato = 2;
@@ -299,6 +322,8 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
+
+//        matrizSimetrica();
 
 //        busquedaSecuencial();
 
