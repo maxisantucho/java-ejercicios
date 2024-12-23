@@ -6,7 +6,26 @@ public class Main {
 
 //    static Scanner sc = new Scanner(System.in);
 
-
+//    public static void sumarMatrices() {
+//        int[][] a = {{1, 3, 2},
+//                     {4, 3, 3},
+//                     {2, 0, 5}};
+//        int[][] b = {{1, 1, 6},
+//                     {4, 3, 10},
+//                     {6, 8, 2}};
+//        int[][] matriz = new int[3][3];
+//        for (int i = 0; i < matriz.length; i++) {
+//            for (int j = 0; j < matriz[i].length; j++) {
+//                matriz[i][j] = a[i][j] + b[i][j];
+//            }
+//        }
+//        for (int i = 0; i < matriz.length; i++) {
+//            for (int j = 0; j < matriz[i].length; j++) {
+//                System.out.print(matriz[i][j] + "; ");
+//            }
+//            System.out.println();
+//        }
+//    }
 
 //    public static void matrizSimetrica() {
 //        int[][] matriz = {{0, 1, -2},
@@ -322,6 +341,8 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
+
+//        sumarMatrices();
 
 //        matrizSimetrica();
 
