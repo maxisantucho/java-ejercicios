@@ -8,6 +8,21 @@ public class Main {
 
 
 
+//    public static void metodoBurbuja() {
+//        int[] arr = {1, 20, 10, 4, 7, 6, 8, 13, 3, 9, 2};
+//        for (int j = 0; j < arr.length - 1; j++) {
+//            int aux = arr[j];
+//            if(aux > arr[j+1]) {
+//                arr[j] = arr[j+1];
+//                arr[j+1] = aux;
+//                j = -1;
+//            }
+//        } //Otra manera de hacerlo
+//        for (int i = 0; i < arr.length; i++) {
+//            System.out.print(arr[i] + "; ");
+//        }
+//    }
+
 //    public static void buscarElemento() {
 //        int[] arr = new int[10];
 //        System.out.println("Ingrese 10 numeros de forma creciente");
@@ -250,6 +265,8 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
+
+//        metodoBurbuja();
 
 //        buscarElemento();
 
