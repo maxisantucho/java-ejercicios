@@ -1,12 +1,46 @@
 package com.logica;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Main {
 
-    static Scanner sc = new Scanner(System.in);
+//    static Scanner sc = new Scanner(System.in);
 
 
+
+//    public static void busquedaSecuencial() {
+//        int[] arr = {4, 1, 5, 2, 3};
+//        int dato = 2;
+//        int i = 0;
+//        boolean bandera = true;
+//        while(i < 5 && bandera) {
+//            if(arr[i] == dato) {
+//                bandera = false;
+//            }
+//            i++;
+//        }
+//        if(bandera) {
+//            System.out.println("No se ha encontrado el numero a buscar");
+//        } else {
+//            System.out.println("El numero esta en la posicion " + (i-1));
+//        }
+//    }
+
+//    public static void metodoInsercion() {
+//        int[] arr = {12, 3, 5, 54, 34, 6, 8, 22, 10, 48};
+//        for (int i = 0; i < arr.length; i++) {
+//            int j = i;
+//            int aux = arr[i];
+//            while(j > 0 && arr[j-1] > aux) {
+//                arr[j] = arr[j-1];
+//                j--;
+//            }
+//            arr[j] = aux;
+//        }
+//        for (int i = 0; i < arr.length; i++) {
+//            System.out.print(arr[i] + "; ");
+//        }
+//    }
 
 //    public static void metodoBurbuja() {
 //        int[] arr = {1, 20, 10, 4, 7, 6, 8, 13, 3, 9, 2};
@@ -265,6 +299,10 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
+
+//        busquedaSecuencial();
+
+//        metodoInsercion();
 
 //        metodoBurbuja();
 
