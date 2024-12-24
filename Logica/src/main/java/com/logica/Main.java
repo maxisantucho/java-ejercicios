@@ -6,6 +6,24 @@ public class Main {
 
 //    static Scanner sc = new Scanner(System.in);
 
+//    public static void sumatoriaMatriz() {
+//        int[][] matriz = {{1, 2, 3},
+//                          {4, 5, 6},
+//                          {7, 8, 9}};
+//        int sumFilas = 0;
+//        int sumColumnas = 0;
+//        for (int i = 0; i < matriz.length; i++) {
+//            for (int j = 0; j < matriz[i].length; j++) {
+//                sumFilas = sumFilas + matriz[i][j];
+//                sumColumnas = sumColumnas + matriz[j][i];
+//            }
+//            System.out.println("Suma de " + (i+1) + "º fila:    " + sumFilas);
+//            System.out.println("Suma de " + (i+1) + "º columna: " + sumColumnas);
+//            sumFilas = 0;
+//            sumColumnas = 0;
+//        }
+//    }
+
 //    public static void rellenarDiagonal() {
 //        int[][] matriz = new int[7][7];
 //        for (int i = 0; i < matriz.length; i++) {
@@ -382,6 +400,8 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
+
+//        sumatoriaMatriz();
 
 //        rellenarDiagonal();
 
