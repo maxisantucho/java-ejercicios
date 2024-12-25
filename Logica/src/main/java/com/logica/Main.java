@@ -6,6 +6,29 @@ public class Main {
 
 //    static Scanner sc = new Scanner(System.in);
 
+//    public static void matrizMarco() {
+//        int[][] matriz = new int[5][5];
+//        int bordes = 1;
+//        for (int i = 0; i < matriz.length; i++) {
+//            matriz[0][i] = bordes;
+//        }
+//        for (int i = 0; i < matriz.length; i++) {
+//            matriz[i][matriz.length - 1] = bordes;
+//        }
+//        for (int i = matriz.length - 1; i >= 0; i--) {
+//            matriz[matriz.length - 1][i] = bordes;
+//        }
+//        for (int i = matriz.length - 1; i >= 0; i--) {
+//            matriz[i][0] = bordes;
+//        }
+//        for (int i = 0; i < matriz.length; i++) {
+//            for (int j = 0; j < matriz[i].length; j++) {
+//                System.out.print(matriz[i][j] + " ");
+//            }
+//            System.out.println();
+//        }
+//    }
+
 //    public static void transponerSegunda() {
 //        int[][] a = new int[5][9];
 //        int[][] b = new int[9][5];
@@ -432,6 +455,8 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
+
+//        matrizMarco();
 
 //        transponerSegunda();
 
