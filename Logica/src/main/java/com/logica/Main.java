@@ -6,6 +6,22 @@ public class Main {
 
 //    static Scanner sc = new Scanner(System.in);
 
+//    public static void arbolNavidad() {
+//        int base = 9;
+//        int espacio = base / 2;
+//
+//        for (int i = 1; i <= base; i+= 2) {
+//            for (int j = 0; j < espacio; j++) {
+//                System.out.print(" ");
+//            }
+//            for (int j = 0; j < i; j++) {
+//                System.out.print("*");
+//            }
+//            System.out.println("");
+//            espacio--;
+//        }
+//    }
+
 //    public static void matrizMarco() {
 //        int[][] matriz = new int[5][5];
 //        int bordes = 1;
@@ -455,6 +471,8 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
+
+//        arbolNavidad();
 
 //        matrizMarco();
 
