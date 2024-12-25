@@ -6,6 +6,38 @@ public class Main {
 
 //    static Scanner sc = new Scanner(System.in);
 
+//    public static void transponerSegunda() {
+//        int[][] a = new int[5][9];
+//        int[][] b = new int[9][5];
+//        //llenar matriz A
+//        for (int i = 0; i < a.length; i++) {
+//            for (int j = 0; j < a[i].length; j++) {
+//                a[i][j] = (int) ((Math.random() * (100 - 10) + 10));
+//            }
+//        }
+//        //mostrar matriz A
+//        for (int i = 0; i < a.length; i++) {
+//            for (int j = 0; j < a[i].length; j++) {
+//                System.out.print(a[i][j] + " ");
+//            }
+//            System.out.println("");
+//        }
+//        //trasponer matriz B
+//        for (int i = 0; i < b.length; i++) {
+//            for (int j = 0; j < b[i].length; j++) {
+//                b[i][j] = a[j][i];
+//            }
+//        }
+//        //mostrar matriz B
+//        System.out.println("");
+//        for (int i = 0; i < b.length; i++) {
+//            for (int j = 0; j < b[i].length; j++) {
+//                System.out.print(b[i][j] + " ");
+//            }
+//            System.out.println("");
+//        }
+//    }
+
 //    public static void sumatoriaMatriz() {
 //        int[][] matriz = {{1, 2, 3},
 //                          {4, 5, 6},
@@ -400,6 +432,8 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
+
+//        transponerSegunda();
 
 //        sumatoriaMatriz();
 
