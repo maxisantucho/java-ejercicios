@@ -2,7 +2,67 @@ package com.logica;
 
 //import java.util.Scanner;
 
+import java.util.Scanner;
+
 public class Main {
+
+    static Scanner sc = new Scanner(System.in);
+
+//    public static void empresaVuelos() {
+//        int[][] vuelos = {{56, 23, 32},
+//                {22, 25, 10},
+//                {11, 12, 14},
+//                {0, 0, 32},
+//                {65, 25, 98},
+//                {89, 100, 130}};
+//        String[] filas = {"Rio de Janeiro", "Cancun", "Madrid", "Roma", "Milan", "Iguazu"};
+//        String[] columnas = {"mañana", "mediodia", "noche"};
+//
+//        String terminarVuelo = "";
+//        do {
+//            boolean bandera = true;
+//            while(bandera) {
+//                int i = 0;
+//                int j = 0;
+//                System.out.println("Ingrese destino y horario de su vuelo");
+//                System.out.print("Destino: ");
+//                String destino = sc.nextLine();
+//                System.out.print("Horario: ");
+//                String horario = sc.nextLine();
+//                while (i < filas.length && bandera) {
+//                    j = 0;
+//                    while (j < columnas.length && bandera) {
+//                        if (filas[i].equalsIgnoreCase(destino) && columnas[j].equalsIgnoreCase(horario)) {
+//                            bandera = false;
+//                        }
+//                        j++;
+//                    }
+//                    i++;
+//                }
+//                if(bandera || (i == filas.length - 1 && j == columnas.length - 1)) {
+//                    System.out.println("No se encontraron datos registrados.");
+//                }
+//                if(!bandera) {
+//                    int fila = i - 1;
+//                    int columna = j - 1;
+//                    System.out.println("Cantidad de pasajes que necesita: ");
+//                    int cantidad = Integer.parseInt(sc.nextLine());
+//                    if(vuelos[fila][columna] == 0) {
+//                        System.out.println("Disculpe, no se pudo completar su operacion dado que no hay asientos disponibles");
+//                    } else if(cantidad > vuelos[fila][columna]) {
+//                        System.out.println("La cantidad de pasajes supera las disponibles");
+//                        System.out.println("Ingrese acorde a las disponibles o cambie el vuelo.");
+//                    } else {
+//                        vuelos[fila][columna] -= cantidad;
+//                        System.out.println("Vuelo vendido:");
+//                        System.out.println("[destino: " + destino + ", horario: " + horario + "]");
+//                    }
+//                }
+//            }
+//            System.out.print("Desea seguir comprando vuelos ? ");
+//            terminarVuelo = sc.nextLine();
+//        } while(!terminarVuelo.equalsIgnoreCase("finish"));
+//    }
 
 //    static Scanner sc = new Scanner(System.in);
 
@@ -471,6 +531,8 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
+
+//        empresaVuelos();
 
 //        arbolNavidad();
 
