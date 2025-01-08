@@ -10,8 +10,12 @@ public class Persona {
         this.nombre = nombre;
     }
 
+    public String nombreCompleto() {
+        return nombre + " " + apellido;
+    }
+
     @Override
     public String toString() {
-        return "Empleado: " + nombre + " " + apellido;
+        return "Persona: " + nombre + " " + apellido;
     }
 }
