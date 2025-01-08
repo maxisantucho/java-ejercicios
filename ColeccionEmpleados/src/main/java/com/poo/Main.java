@@ -36,6 +36,9 @@ public class Main {
 
         UtilListas.agregarDeportistaALaLista(deportistas, "Dibu", "Martineh", 16);
         UtilListas.mostrarListaDePersonas(deportistas);
+        System.out.println();
+        UtilListas.agregarDeportistaALaLista(personas, "Alejandro", "Garnacho", 40);
+        UtilListas.mostrarListaDePersonas(personas);
 
 
 //        ArrayList<Persona> personas = new ArrayList<>();
