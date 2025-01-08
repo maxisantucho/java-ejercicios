@@ -1,23 +1,19 @@
 package com.poo;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        int x = 10, y, z;
-        System.out.println("Dividir");
-        Scanner sc = new Scanner(System.in);
-        z = Integer.parseInt(sc.nextLine());
-        try {
-            y = x / z;
-            System.out.println("Resultado " + y);
-        } catch (Exception e) {
-            System.out.println("Error");
+        for (int i = 0; i < 10; i++) {
+            try {
+                Thread.sleep(1 * 1000);
+                System.out.println(i + 1);
+            } catch(Exception e) {
+                System.out.println("Fallo");
+            }
         }
-        System.out.println("Adios");
 
     }
 }
