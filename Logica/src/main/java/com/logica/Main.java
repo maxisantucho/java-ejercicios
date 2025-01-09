@@ -8,6 +8,25 @@ public class Main {
 
     static Scanner sc = new Scanner(System.in);
 
+//    public static void selectionSort() {
+//        int[] arr = {6, 4, 5, 2, 3, 1};
+//        for (int i = 0; i < arr.length; i++) {
+//            int aux = arr[i];
+//            int index = i;
+//            for (int j = i; j < arr.length; j++) {
+//                if(aux > arr[j]) {
+//                    aux = arr[j];
+//                    index = j;
+//                }
+//            }
+//            arr[index] = arr[i];
+//            arr[i] = aux;
+//        }
+//        for (int i = 0; i < arr.length; i++) {
+//            System.out.print(arr[i] + " ");
+//        }
+//    }
+
 //    public static void empresaVuelos() {
 //        int[][] vuelos = {{56, 23, 32},
 //                {22, 25, 10},
@@ -531,6 +550,8 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
+
+//        selectionSort();
 
 //        empresaVuelos();
 
