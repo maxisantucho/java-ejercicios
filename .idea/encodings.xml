@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/AppBancaria/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AppBancaria/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BarajaInglesa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BarajaInglesa/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Enum/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Enum/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FabricaInstrumentos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FabricaInstrumentos/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Generics/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Generics/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GestionTareas/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GestionTareas/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Practica/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Practica/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tareas/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tareas/src/main/resources" charset="UTF-8" />
   </component>

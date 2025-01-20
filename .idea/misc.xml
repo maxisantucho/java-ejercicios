@@ -8,6 +8,11 @@
         <option value="$PROJECT_DIR$/GestionTareas/pom.xml" />
         <option value="$PROJECT_DIR$/Tareas/pom.xml" />
         <option value="$PROJECT_DIR$/Generics/pom.xml" />
+        <option value="$PROJECT_DIR$/Practica/pom.xml" />
+        <option value="$PROJECT_DIR$/AppBancaria/pom.xml" />
+        <option value="$PROJECT_DIR$/BarajaInglesa/pom.xml" />
+        <option value="$PROJECT_DIR$/Enum/pom.xml" />
+        <option value="$PROJECT_DIR$/FabricaInstrumentos/pom.xml" />
       </list>
     </option>
   </component>
