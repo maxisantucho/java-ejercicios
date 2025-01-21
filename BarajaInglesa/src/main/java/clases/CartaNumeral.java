@@ -9,4 +9,9 @@ public class CartaNumeral extends CartaConPalo{
         this.numero = numero;
     }
 
+    @Override
+    public String getRepresentacion() {
+        return numero + super.getRepresentacion();
+    }
+
 }

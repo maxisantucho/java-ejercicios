@@ -8,7 +8,5 @@ public class Main {
 
         baraja.mostrarBajara();
 
-        System.out.println("Baraja lista");
-
     }
 }

@@ -8,4 +8,13 @@ public abstract class CartaConPalo extends Carta{
         this.palo = palo;
     }
 
+    public Palo getPalo() {
+        return palo;
+    }
+
+    @Override
+    public String getRepresentacion() {
+        return " de " + palo;
+    }
+
 }

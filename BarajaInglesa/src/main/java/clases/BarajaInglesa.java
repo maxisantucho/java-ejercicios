@@ -13,6 +13,7 @@ public class BarajaInglesa {
 
     public void mostrarBajara() {
         for (Carta carta : cartas) {
+            carta.darVuelta();
             carta.mostrar();
         }
     }
