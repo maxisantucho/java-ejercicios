@@ -7,7 +7,6 @@ import clases.software.excepciones.LecturaDatosExcepcion;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class AccesoDatosImpl implements IAccesoDatos {
@@ -68,13 +67,14 @@ public class AccesoDatosImpl implements IAccesoDatos {
             String linea = null;
             int indice = 0;
             linea = entrada.readLine();
-            while(linea != null) {
+            boolean bandera = true;
+            while(linea != null && bandera) {
                 String[] cad = linea.split(", ");
                 String con = cad[0].substring(10);
                 if(buscar.equalsIgnoreCase(con)) {
                     List<Pelicula> lista = listar(nombreArchivo);
                     resultado = String.valueOf(lista.get(indice));
-                    break;
+                    bandera = false;
                 }
                 linea = entrada.readLine();
                 indice++;

@@ -59,9 +59,4 @@ public class Main {
 
     }
 
-//    Pelicula: Titanic
-//    estreno: 05/02/1998
-//    duracion: 3H14m
-//    genero: Drama
-//    nombreDirector: James-Cameron
 }

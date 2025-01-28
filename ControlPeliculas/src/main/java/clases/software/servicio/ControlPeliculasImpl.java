@@ -4,7 +4,6 @@ import clases.software.datos.AccesoDatosImpl;
 import clases.software.datos.IAccesoDatos;
 import clases.software.domain.Pelicula;
 import clases.software.excepciones.AccesoDatosExcepcion;
-import clases.software.excepciones.LecturaDatosExcepcion;
 
 import java.util.List;
 
