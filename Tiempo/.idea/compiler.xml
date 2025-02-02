@@ -6,19 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="BarajaInglesa" />
-        <module name="Enum" />
-        <module name="ControlPeliculas" />
-        <module name="Tareas" />
-        <module name="Practica" />
-        <module name="FabricaInstrumentos" />
-        <module name="ManejoProductos" />
-        <module name="CentroEducativo" />
-        <module name="Generics" />
+        <module name="Tiempo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="AppBancaria" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>
