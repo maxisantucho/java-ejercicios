@@ -8,7 +8,9 @@ public class Pelicula {
     private String genero;
     private String nombreDirector;
 
-    public Pelicula(String nombre, String estreno, String duracion, String genero, String nombreDirector) {
+    public Pelicula(String nombre, String estreno,
+                    String duracion, String genero,
+                    String nombreDirector) {
         this.nombre = nombre;
         this.estreno = estreno;
         this.duracion = duracion;
@@ -30,7 +32,9 @@ public class Pelicula {
     }
 
     public String mostrarDatos() {
-        return nombre + ", " + estreno + ", " + duracion + ", " + genero + ", " + nombreDirector + "\n";
+        return nombre + ", " + estreno + ", " +
+                duracion + ", " + genero + ", " +
+                nombreDirector + "\n";
     }
 
 }
